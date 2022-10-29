@@ -44,3 +44,21 @@ This example shows a almost fully visible vehicle. We can see the whole outline,
 
 
 Based on observation, I think side window and windshield are stable features on most vehicles. 
+
+## Create Birds-Eye View from Lidar PCL
+
+Result from ID_S2_EX1 shown below:
+
+![](/results/ID_S2_EX1.png)
+
+## Compute intensity Layer of the BEV map
+
+Result from ID_S2_EX2 shown below:
+
+![](/results/bev_intensity_channel.png)
+
+## Compute height layer of the BEV map
+
+Result from ID_S2_EX3 shown below:
+
+![](results/bev_height_channel.png)
