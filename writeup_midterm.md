@@ -61,4 +61,33 @@ Result from ID_S2_EX2 shown below:
 
 Result from ID_S2_EX3 shown below:
 
-![](results/bev_height_channel.png)
+![](/results/bev_height_channel.png)
+
+## Detection value from a second model (ID_S3_EX1)
+
+![](/results/ID_S3_EX1.png)
+
+## 3D bounding boxes from model response (ID_S3_EX2)
+
+![](/results/ID_S3_EX2.png)
+
+## Performance Evaluation for Object Detection
+
+### Darknet performance shown below:
+
+![](/results/ID_S4_darknet.png)
+
+![](/results/ID_S4_darknet2.png)
+
+### fpn resnet performance shown below:
+
+![](/results/ID_S4_resnet.png)
+
+![](/results/ID_S4_resnet2.png)
+
+### Ensure plausible results using labels as objects to check:
+
+![](/results/ID_S4_label.png)
+
+![](/results/ID_S4_label2.png)
+
