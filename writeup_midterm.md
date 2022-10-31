@@ -65,7 +65,7 @@ Result from ID_S2_EX3 shown below:
 
 ## Detection value from a second model (ID_S3_EX1)
 
-![](/results/ID_S3_EX1.png)
+![](/results/ID_S3_EX1_detectionValue.png)
 
 ## 3D bounding boxes from model response (ID_S3_EX2)
 
