@@ -11,7 +11,7 @@ This step involves the following steps:
 
 The RMSE plot for the single track is shown below:
 
-![](/results/Step1_RMSE.png)
+![](/img/Step1_RMSE.png)
 
 ## Step 2. Track Management
 
