@@ -44,14 +44,27 @@ This step involves the following tasks:
     - Return the association pair found
 * Plot the RMSE for multi tracks
 
-The RMSE plot for multi tracks using Lidar is shown below:
+The RMSE plot for multi tracks using lidar is shown below:
 
 ![](/img/Step3_RMSE.png)
 
 ## Step 4. Sensor Fusion
 
 ### Camera-Lidar Fusion
-Write a short recap of the four tracking steps and what you implemented there (EKF, track management, data association, camera-lidar sensor fusion). Which results did you achieve? Which part of the project was most difficult for you to complete, and why?
+
+This step involves the following tasks:
+* Implement a function to check whether an object lies in the sensor's field of view
+* Implement nonlinear camera measurement function h
+* Initialize camera measurement 
+* Moke a movie to showcase tracking results
+* Plot the RMSE for multi tracks
+
+The RMSE plot for multi tracks using lidar and camera fusion is shown below:
+
+![](/img/Step4_RMSE.png)
+
+The tracking movie is included in result_movie folder: ![movie](/result_movie/my_tracking_results.avi)
+ Which part of the project was most difficult for you to complete, and why?
 Do you see any benefits in camera-lidar fusion compared to lidar-only tracking (in theory and in your concrete results)?
 Which challenges will a sensor fusion system face in real-life scenarios? Did you see any of these challenges in the project?
 Can you think of ways to improve your tracking results in the future?
