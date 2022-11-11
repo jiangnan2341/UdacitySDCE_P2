@@ -63,7 +63,8 @@ The RMSE plot for multi tracks using lidar and camera fusion is shown below:
 
 ![](/img/Step4_RMSE.png)
 
-The tracking movie is included in result_movie folder: ![movie](/result_movie/my_tracking_results.avi)
+The tracking movie is included in result_movie folder: ![movie](/result_movie/my_tracking_results.zip)
+Note the original avi file is larger than 25M (87M) so I had to put it to zip file.
  Which part of the project was most difficult for you to complete, and why?
 Do you see any benefits in camera-lidar fusion compared to lidar-only tracking (in theory and in your concrete results)?
 Which challenges will a sensor fusion system face in real-life scenarios? Did you see any of these challenges in the project?
