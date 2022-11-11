@@ -34,6 +34,20 @@ The RMSE plot for the single track is shown below:
 
 ### Use SNN to Associate Measurements to Tracks (Multi Target Tracking)
 
+This step involves the following tasks:
+* Use actual association matrix based on Mahalanobis distances for all tracks in the input track list and all measurements in the input meas_list
+* Initialize the list of unassigned measurements and unassigned tracks with input track list and measurement list
+* Loop through the following subtasks until the minumum association matrix entry in infinity (no more association found):
+    - Implement calculation of the Mahalanobis distance between a track and a measurement, use gating function to reduce the association complexity by removing unlikely association pairs.
+    - Find the minimum entry in the association matrix, delete corresponding row and column from the matrix
+    - Remove corresponding track and measurement from list of unassigned tracks and measurements
+    - Return the association pair found
+* Plot the RMSE for multi tracks
+
+The RMSE plot for multi tracks using Lidar is shown below:
+
+![](/img/Step3_RMSE.png)
+
 ## Step 4. Sensor Fusion
 
 ### Camera-Lidar Fusion
