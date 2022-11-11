@@ -4,7 +4,7 @@
 
 ### Use Extended Kalman Filter to Track Single Target with Lidar Measurement Over Time
 
-This step involves the following steps:
+This step involves the following tasks:
 * Implement the predict() function for an EKF
 * Implement the update() function for an EKF
 * Use the EKF to track a single target with lidar measurement input over time and plot the RMSE for the single track
@@ -16,6 +16,19 @@ The RMSE plot for the single track is shown below:
 ## Step 2. Track Management
 
 ### Initialize, Update and Delete Track
+
+This step involves the following tasks:
+* Initialize track state and estimation error covariance matrix based on lidar measurement
+* Implement track management with the following subtasks:
+     - Decrease track score if no associated measurement found
+     - Delete tracks with low scores or big estimation error covariance
+     - Increase score for tracks with associated measurements
+     - Set track state to "tentative" or "confirmed" depending on the score
+* Plot the RMSE for a single track
+
+The RMSE plot for the single track is shown below:
+
+![](/img/Step2_RMSE.png)
 
 ## Step 3. Data Association
 
