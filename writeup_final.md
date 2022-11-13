@@ -11,7 +11,7 @@ This step involves the following tasks:
 
 The RMSE plot for the single track is shown below:
 
-![](/img/Step1_RMSE.png)
+![](img/Step1_RMSE.png)
 
 ## Step 2. Track Management
 
@@ -28,7 +28,7 @@ This step involves the following tasks:
 
 The RMSE plot for the single track is shown below:
 
-![](/img/Step2_RMSE.png)
+![](img/Step2_RMSE.png)
 
 ## Step 3. Data Association
 
@@ -46,7 +46,7 @@ This step involves the following tasks:
 
 The RMSE plot for multi tracks using lidar is shown below:
 
-![](/img/Step3_RMSE.png)
+![](img/Step3_RMSE.png)
 
 ## Step 4. Sensor Fusion
 
@@ -61,7 +61,7 @@ This step involves the following tasks:
 
 The RMSE plot for multi tracks using lidar and camera fusion is shown below:
 
-![](/img/Step4_RMSE.png)
+![](img/Step4_RMSE.png)
 
 The tracking movie is included in result_movie folder: ![movie](/result_movie/my_tracking_results.zip)
 Note the original avi file is larger than 25M (87M) so I had to put it to zip file.
